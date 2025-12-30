@@ -23,6 +23,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-domain: aelfsige.github.io/codedbyarwin
-url: https://aelfsige.github.io/codedbyarwin
-baseurl: ""
+domain: "aelfsige.github.io"
+url: "https://aelfsige.github.io"
+baseurl: "/codedbyarwin"
