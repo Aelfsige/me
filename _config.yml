@@ -25,4 +25,4 @@ plugins:
 
 domain: "aelfsige.github.io"
 url: "https://aelfsige.github.io"
-baseurl: "/codedbyarwin"
+baseurl: "/"
