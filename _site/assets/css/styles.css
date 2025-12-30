@@ -1,1 +1,53 @@
-@use "main"
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+nav {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+}
+
+.nav-container {
+  background-color: white;
+  position: sticky;
+  top: 12px;
+}
+
+.blog-list {
+  list-style-type: "⭐";
+}
+
+.container {
+  border: 2px solid red;
+  width: 35vw;
+  padding: 12px;
+  margin: 20px 0;
+  gap: 12px;
+}
+
+.current {
+  color: green;
+}
+
+img {
+  width: 95%;
+}
+
+hr {
+  border: 2px solid gold;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 85vw;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

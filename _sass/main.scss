@@ -3,19 +3,32 @@ body{
     padding: 0;
     display: flex;
     justify-content: center;
+    font-family: sans-serif;
 }
 
 nav{
     border: 2px solid blue;
     display: flex;
     justify-content: space-around;
+    padding: 12px 0;
+}
+
+.nav-container{
+    background-color: white;
+    position: sticky;
+    top: 12px;
+}
+
+.blog-list{
+    list-style-type: "⭐";
 }
 
 .container{
-    width: 50vw;
     border: 2px solid red;
-    padding: 20px;
-    margin: 8px 0;
+    width: 35vw;
+    padding: 12px;
+    margin: 20px 0;
+    gap: 12px;
 }
 
 .current{
@@ -23,5 +36,13 @@ nav{
 }
 
 img{
-    width: 75%;
+    width: 95%;
+}
+
+hr{ border: 2px solid gold; }
+
+@media (max-width: 900px){
+    .container{
+        width: 85vw;
+    }
 }
