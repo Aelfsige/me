@@ -1,16 +1,13 @@
-$default-display: flex;
-$default-justify: center;
-
 body{
     margin: 0;
     padding: 0;
-    display: $default-display;
-    justify-content: $default-justify;
+    display: flex;
+    justify-content: center;
 }
 
 nav{
     border: 2px solid blue;
-    display: $default-display;
+    display: flex;
     justify-content: space-around;
 }
 
