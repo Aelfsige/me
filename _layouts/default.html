@@ -10,12 +10,11 @@
 </head>
 <body>
     <div class="container">
-        <div class="nav-container">
-            {% include navigation.html %}
-        </div>
-        <div class="content-container">
+        {% include footer.html %}
+        <div class="main">
             {{ content }}
         </div>
+        {% include navigation.html %}
     </div>
 </body>
 </html>

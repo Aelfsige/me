@@ -1,6 +1,12 @@
 - name: Home
   link: /
+  icon: /assets/icons/gohome.png
 - name: Blogs
   link: /blog.html
+  icon: /assets/icons/gtk-save-as.png
 - name: Projects
   link: /projects.html
+  icon: /assets/icons/applications-debugging.png
+- name: Collections
+  link: /collections.html
+  icon: /assets/icons/transformers.gif
